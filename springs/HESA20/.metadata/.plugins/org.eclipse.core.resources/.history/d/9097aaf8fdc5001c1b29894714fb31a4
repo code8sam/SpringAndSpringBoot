@@ -1,0 +1,5 @@
+package edu.jspiders.firstspringwebapp.controller;
+
+public class MyController {
+
+}

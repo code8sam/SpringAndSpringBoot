@@ -1,0 +1,17 @@
+package org.jspiders.curdoperationsusingmvc.service;
+
+import org.jspiders.curdoperationsusingmvc.dao.EmployeeOperations;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService
+{
+	@Autowired
+	private EmployeeOperations operations;
+	
+	public void displayAllEmployee()
+	{
+		
+	}
+}

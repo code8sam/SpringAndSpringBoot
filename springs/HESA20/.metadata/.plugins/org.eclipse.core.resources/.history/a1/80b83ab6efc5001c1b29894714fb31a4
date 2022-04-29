@@ -1,0 +1,21 @@
+package edu.jspiders.beanlifecycle.beans;
+
+public class ClassB
+{
+	public ClassB() 
+	{
+		System.out.println(this.getClass().getSimpleName()+" Object is created!!!");
+	}
+	
+	public void myOwnInit()
+	{
+		//initialization code
+		System.out.println("in post initialization callback method!! of ClassB");
+	}
+	
+	public void myOwnDestroy()
+	{
+		//clean up code
+		System.out.println("in pre destruction call back method!! of ClassB");
+	}
+}

@@ -1,0 +1,7 @@
+package edu.jspiders.explicitbeanwiringdemo.beans;
+
+public class ClassA 
+{
+	private int x;
+	private ClassB b;
+}

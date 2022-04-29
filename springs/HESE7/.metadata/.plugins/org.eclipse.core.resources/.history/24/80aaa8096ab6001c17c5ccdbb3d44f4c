@@ -1,0 +1,6 @@
+package org.jspiders.curdoperationsusingmvc.service;
+
+public class EmployeeService
+{
+	
+}

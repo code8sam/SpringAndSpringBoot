@@ -1,0 +1,23 @@
+package edu.jspiders.baenscope;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import edu.jspiders.baenscope.beans.ClassA;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("scopeconfig.xml");
+    	
+    	ClassA a1 = (ClassA) context.getBean("classA");
+    	
+    	System.out.println(a1);
+    	
+    	context.close();
+    }
+}

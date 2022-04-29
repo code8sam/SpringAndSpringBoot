@@ -1,0 +1,6 @@
+package edu.jspiders.explicitbeanwiringdemo.beans;
+
+public class MotherBoard
+{
+	
+}

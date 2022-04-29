@@ -1,0 +1,21 @@
+package edu.jspiders.componentscanningdemo.beans;
+
+public class LightFactory 
+{
+	private Light l;
+	
+	public LightFactory() 
+	{
+		System.out.println("Light Factory Object is created!!!");
+	}
+
+	public Light getL() {
+		return l;
+	}
+
+	public void setL(Light l) {
+		this.l = l;
+	}
+	
+	
+}

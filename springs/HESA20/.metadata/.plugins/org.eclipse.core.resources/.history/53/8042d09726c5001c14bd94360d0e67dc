@@ -1,0 +1,6 @@
+package edu.jspiders.springappwithoutxml.config;
+
+public class MyOwnConfigurations 
+{
+
+}

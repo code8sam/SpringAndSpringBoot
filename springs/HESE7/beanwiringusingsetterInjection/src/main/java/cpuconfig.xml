@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+           
+           <bean id="ram" class="org.jspiders.beanwiringusingsetterInjection.beans.Ram">
+           		<property name="brand" value="abc"></property>
+           		<property name="price" value="2500.00"></property>
+           </bean>
+           
+           <bean id="prosessor" class="org.jspiders.beanwiringusingsetterInjection.beans.Processor">
+           		<property name="brand" value="mno"></property>
+           		<property name="price" value="12500.00"></property>
+           </bean>
+           
+           <bean id="hd" class="org.jspiders.beanwiringusingsetterInjection.beans.HardDisk">
+           		<property name="brand" value="xyz"></property>
+           		<property name="price" value="500.00"></property>
+           </bean>
+           
+           <bean id="cpu" class="org.jspiders.beanwiringusingsetterInjection.beans.CPU">
+           		<constructor-arg name="ram" ref="ram"></constructor-arg>
+           		<constructor-arg name="pro" ref="prosessor"></constructor-arg>
+           		<constructor-arg name="hd" ref="hd"></constructor-arg>
+           </bean>
+</beans>

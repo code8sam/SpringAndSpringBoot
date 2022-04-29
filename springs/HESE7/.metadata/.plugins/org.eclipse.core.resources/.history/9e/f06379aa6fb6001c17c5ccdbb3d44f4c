@@ -1,0 +1,19 @@
+package org.jspiders.curdoperationsusingmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/employee")
+public class EmployeeController 
+{
+	
+	@RequestMapping(path="/display",method=RequestMethod.GET)
+	public String getDisplayEmployeesPage()
+	{
+		
+		
+		return "displayAllEmployees";
+	}
+}

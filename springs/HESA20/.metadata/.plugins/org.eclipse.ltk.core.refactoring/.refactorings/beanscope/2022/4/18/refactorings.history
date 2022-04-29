@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ClassA.java&apos; to &apos;beanscope/src/main/java/edu.jspiders.baenscope.beans&apos;&#x0D;&#x0A;- Original project: &apos;beanscope&apos;&#x0D;&#x0A;- Destination element: &apos;beanscope/src/main/java/edu.jspiders.baenscope.beans&apos;&#x0D;&#x0A;- Original element: &apos;edu.jspiders.baenscope.beans.ClassA.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;edu.jspiders.baenscope.beans" element1="/src\/main\/java&lt;edu.jspiders.baenscope.beans{ClassA.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1650956870572" units="1" version="1.0"/>
+</session>

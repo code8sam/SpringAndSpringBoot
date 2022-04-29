@@ -1,0 +1,18 @@
+package edu.jspiders.componentscanningdemo.beans;
+
+public class TubeLight implements Light
+{
+
+	@Override
+	public void on()
+	{
+		System.out.println();
+	}
+
+	@Override
+	public void off() 
+	{
+		
+	}
+	
+}

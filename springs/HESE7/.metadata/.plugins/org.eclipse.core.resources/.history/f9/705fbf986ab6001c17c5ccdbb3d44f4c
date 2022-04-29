@@ -1,0 +1,19 @@
+package org.jspiders.curdoperationsusingmvc.dto;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable
+{
+	
+	private static final long serialVersionUID = 5191138015998116954L;
+	
+	private int id;
+	private String name;
+	private String email;
+	private String dob;
+	private int age;
+	private double salary;
+	private boolean status;
+	
+	
+}

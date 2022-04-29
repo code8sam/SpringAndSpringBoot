@@ -1,0 +1,9 @@
+INDEX VERSION 1.130
+E:\Rakshith\Frameworks\springs\HESE7\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\492023022.index
+\myfirstspringmvcapp\src\main\resources
+E:\Rakshith\Frameworks\springs\HESE7\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\255113737.index
+\myfirstspringmvcapp\src\main\java
+E:\Rakshith\Frameworks\springs\HESE7\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1238188814.index
+\curdoperationsusingmvc\src\main\resources
+E:\Rakshith\Frameworks\springs\HESE7\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1498032727.index
+\curdoperationsusingmvc\src\main\java

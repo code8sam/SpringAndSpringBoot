@@ -1,0 +1,14 @@
+127.0.0.1 - - [07/Apr/2022:17:18:01 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:18:48 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 197
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:18:48 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:23:56 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 978
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:24:16 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 984
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:19 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 1047
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:20 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 1047
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:20 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 1047
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:39 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:58 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 922
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:59 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 922
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:17:26:59 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 922
+127.0.0.1 - - [07/Apr/2022:18:10:46 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:18:12:18 +0530] "GET /curdoperationsusingmvc/employee/display HTTP/1.1" 200 1239

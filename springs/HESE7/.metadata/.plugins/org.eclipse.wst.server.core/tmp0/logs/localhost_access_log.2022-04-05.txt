@@ -1,0 +1,11 @@
+127.0.0.1 - - [05/Apr/2022:17:31:24 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:32:27 +0530] "GET /myfirstspringmvcapp/controller1/index HTTP/1.1" 200 289
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:32:27 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [05/Apr/2022:17:57:34 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:57:46 +0530] "GET /myfirstspringmvcapp/controller1/form HTTP/1.1" 200 304
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:57:50 +0530] "GET /myfirstspringmvcapp/controller1/form?nm= HTTP/1.1" 200 304
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:58:03 +0530] "GET /myfirstspringmvcapp/controller1/form?nm=Arfath HTTP/1.1" 200 304
+127.0.0.1 - - [05/Apr/2022:18:00:38 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [05/Apr/2022:18:01:07 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:18:01:13 +0530] "GET /myfirstspringmvcapp/controller1/form HTTP/1.1" 200 336
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:18:01:25 +0530] "POST /myfirstspringmvcapp/controller1/formData HTTP/1.1" 404 1106

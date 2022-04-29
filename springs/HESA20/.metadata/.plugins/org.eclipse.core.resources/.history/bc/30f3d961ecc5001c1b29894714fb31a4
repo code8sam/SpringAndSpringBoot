@@ -1,0 +1,18 @@
+package edu.jspiders.beanlifecycle.beans;
+
+import org.springframework.beans.factory.InitializingBean;
+
+public class ClassA implements InitializingBean
+{
+	public ClassA()
+	{
+		System.out.println(this.getClass().getSimpleName()+" Object is created!!!");
+	}
+
+	@Override
+	public void afterPropertiesSet() throws Exception 
+	{
+		//initialization code
+		System.out.println("in post initialization callback method");
+	}
+}

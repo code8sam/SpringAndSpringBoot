@@ -1,0 +1,35 @@
+package edu.jspiders.firstspringwebapp.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/con1")
+public class MyController 
+{
+	@RequestMapping("/home")
+	public String getIndexPage()
+	{
+		return "index";
+	}
+	
+	@RequestMapping("/register")
+	public String getRegisterPage()
+	{
+		return "registerPage";
+	}
+	
+	@RequestMapping("/registerdata1")
+	public void registerDataWay1(HttpServletRequest req)
+	{
+		System.out.println("in registerdataway1");
+		String id = req.getParameter("id");
+		String fname = req.getParameter("fname");
+		String lname = req.getParameter("lname");
+		String marks = req.getParameter("marks");
+		
+		System.out.println(id + "   "+fname+"   "+lname+"   "+marks);
+	}
+}

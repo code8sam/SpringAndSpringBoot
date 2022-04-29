@@ -1,0 +1,9 @@
+package edu.jspiders.springappwithoutxml.beans;
+
+public class ClassA 
+{
+	public ClassA() 
+	{
+		System.out.println(this.getClass().getSimpleName()+" Object is created!!!");
+	}
+}

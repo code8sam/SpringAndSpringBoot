@@ -1,0 +1,5 @@
+package edu.jspiders.autowiringusingxml.beans;
+
+public class ClassB {
+
+}

@@ -1,0 +1,45 @@
+package edu.jspiders.firstspringwebapp.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import edu.jspiders.firstspringwebapp.dto.Student;
+import edu.jspiders.firstspringwebapp.service.MyService;
+
+@Controller
+@RequestMapping("/con1")
+public class MyController 
+{
+	@Autowired
+	private MyService myService;
+	
+	@RequestMapping("/home")
+	public String getIndexPage()
+	{
+		return "index";
+	}
+	
+	@RequestMapping("/register")
+	public String getRegisterPage()
+	{
+		return "registerPage";
+	}
+	
+	@RequestMapping("/registerdata1")
+	public void registerDataWay1(HttpServletRequest req)
+	{
+		System.out.println("in registerdataway1");
+		
+		String id = req.getParameter("id");
+		String fname = req.getParameter("fname");
+		String lname = req.getParameter("lname");
+		String marks = req.getParameter("marks");
+		
+		System.out.println(id + "   "+fname+"   "+lname+"   "+marks);
+		
+		String msg = myService.insertStudentService(new Student(Integer.parseInt(id),fname,lname,Double.parseDouble(marks)));
+	}
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Rakshith\Frameworks\springs\HESE7\demo\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.jspiders.curdoperationsusingmvc"/>
+			<item value="org.jspiders"/>
+			<item value="org.jspiders.myfirstspringmvcapp"/>
+			<item value="org.jspiders.beanlifecycle"/>
+			<item value="org.jspiders.springautowiringwithoutxml"/>
+			<item value="org.jspiders.componentscanningdemo"/>
+			<item value="org.jspiders.autowiringusingxml"/>
+			<item value="org.jspiders.beanwiringusingsetterInjection"/>
+			<item value="org.jspiders.constructorinjectionforcollectionandMap"/>
+			<item value="org.jspiders.setterinjjectionforcollectionandmap"/>
+			<item value="org.jspiders.constructorInjectionforpdtandstring"/>
+			<item value="org.jspiders.setterijectionforpdtandstring"/>
+			<item value="org.jspiders.demo"/>
+		</list>
+		<list key="groupId">
+			<item value="org.jspiders"/>
+		</list>
+		<list key="artifactId">
+			<item value="curdoperationsusingmvc"/>
+			<item value="myfirstspringmvcapp"/>
+			<item value="beanlifecycle"/>
+			<item value="springautowiringwithoutxml"/>
+			<item value="componentscanningdemo"/>
+			<item value="autowiringusingxml"/>
+			<item value="beanwiringusingsetterInjection"/>
+			<item value="constructorinjectionforcollectionandMap"/>
+			<item value="setterinjjectionforcollectionandmap"/>
+			<item value="constructorInjectionforpdtandstring"/>
+			<item value="setterijectionforpdtandstring"/>
+			<item value="demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,24 @@
+package edu.jspiders.componentscanningdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import edu.jspiders.componentscanningdemo.beans.ClassA;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ClassPathXmlApplicationContext context =
+        		new ClassPathXmlApplicationContext("componentscanningconfig.xml");
+        
+        ClassA a = (ClassA) context.getBean("classA");
+        
+        System.out.println(a);
+        
+        context.close();
+    }
+}

@@ -1,0 +1,5 @@
+package edu.jspiders.autowiringusingannotations.beans;
+
+public class ClassA {
+
+}

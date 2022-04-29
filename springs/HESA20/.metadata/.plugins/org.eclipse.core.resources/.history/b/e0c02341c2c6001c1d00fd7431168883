@@ -1,0 +1,14 @@
+package edu.jspiders.firstspringwebapp.service;
+
+import org.springframework.stereotype.Service;
+
+import edu.jspiders.firstspringwebapp.dto.Student;
+
+@Service
+public class MyService 
+{
+	public void insertStudentService(Student s)
+	{
+		
+	}
+}

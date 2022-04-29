@@ -1,0 +1,14 @@
+package edu.jspiders.springappwithoutxml.config;
+
+import org.springframework.context.annotation.Configuration;
+
+import edu.jspiders.springappwithoutxml.beans.ClassA;
+
+@Configuration
+public class MyOwnConfigurations 
+{
+	public ClassA getClassA()
+	{
+		return new ClassA();
+	}
+}

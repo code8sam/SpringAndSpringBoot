@@ -1,0 +1,21 @@
+package edu.jspiders.firstspringwebapp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/con1")
+public class MyController 
+{
+	@RequestMapping("/home")
+	public String getIndexPage()
+	{
+		return "index";
+	}
+	
+	@RequestMapping("/register")
+	public String getRegisterPage()
+	{
+		return "registerPage";
+	}
+}
